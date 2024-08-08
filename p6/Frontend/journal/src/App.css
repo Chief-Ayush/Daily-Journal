@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+}
+header {
+  padding: 20px 60px;
+  background-color: white;
+  display: grid;
+}
+
+header h1,
+p {
+  width: 250px;
+}
+header h1 {
+  font-family: "Poppins";
+}
+
+header nav {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10p 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  right: 5px;
+}
+
+.recents {
+  padding: 20px 60px;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 3fr 1fr;
+}
+
+.chapter-details {
+  background-color: white;
+  margin: 10px 10px;
+  padding: 5px 10px;
+  width: 500px;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.chapter-details h4 {
+  color: rgb(168, 165, 165);
+  margin-bottom: 10px;
+}
+#content-details {
+  color: rgb(0, 0, 0);
+}
+#time {
+  color: red;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+label,
+input {
+  display: block;
+}
+#title {
+  height: 30px;
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+#content {
+  height: 450px;
+  width: 500px;
+  text-align: center;
+  text-justify: auto;
+}
+form button {
+  background: #1aac83;
+  border: 0;
+  color: #fff;
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.chapter-details span {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid #e7195a;
+  color: #e7195a;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid #e7195a;
+}
+
+nav a {
+  margin-left: 10px;
+}
+
+form.signup,
+form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+nav button {
+  background: #fff;
+  color: #1aac83;
+  border: 2px solid #1aac83;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
